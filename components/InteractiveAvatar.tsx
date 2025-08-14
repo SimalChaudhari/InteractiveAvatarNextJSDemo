@@ -230,10 +230,10 @@ function InteractiveAvatar() {
           </div>
         </div>
         
-        {/* Right Section - Chat Window */}
+        {/* Right Section - Chat Window
         {sessionState === StreamingAvatarSessionState.CONNECTED && (
           <div className="w-80 bg-black rounded-lg flex flex-col h-full shadow-xl border border-gray-700 min-h-0">
-            {/* Chat Header */}
+            
             <div className="flex items-center justify-between p-4 border-b border-gray-700 bg-black rounded-t-lg">
               <div className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center shadow-sm">
@@ -251,17 +251,18 @@ function InteractiveAvatar() {
               </button>
             </div>
             
-            {/* Chat Messages Area */}
+           
             <div className="flex-1 p-4 bg-black min-h-0">
               <MessageHistory />
             </div>
             
-            {/* Message Input */}
+            
             <div className="p-4 border-t border-gray-700 bg-black rounded-b-lg">
               <ChatInput />
             </div>
           </div>
         )}
+         */}
       </div>
     </div>
   );
